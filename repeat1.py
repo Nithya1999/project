@@ -6,7 +6,6 @@ lst1 = []
 for i in lst:
     if lst.count(i) > 1:
         lst1.append(i)
-print(lst1)
 if len(lst1) == 0:
     print('unique')
 else:
