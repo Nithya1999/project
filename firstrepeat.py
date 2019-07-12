@@ -8,7 +8,8 @@ for i in range(0,len(a)):
     else:
         r=a[i]
         break
-print(r)
 if r==0:
     print('unique')
+else:
+    print(r)
 
